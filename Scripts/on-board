@@ -1,0 +1,5 @@
+echo “On-boarding for the project started”
+
+./Scripts/Templates/replace-templates
+
+echo “On-boarding for the project finished” 

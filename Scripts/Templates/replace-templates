@@ -1,0 +1,10 @@
+echo "Remove Xcode templates from folder Test"
+
+rm -R ~/Library/Developer/Xcode/Templates/Default/
+
+echo "Copy custom tomorrow templates"
+
+mkdir -p ~/Library/Developer/Xcode/Templates/Test/
+cp -R Scripts/Templates/Custom\ Templates/ ~/Library/Developer/Xcode/Templates/Default/
+
+echo "Copy custom tomorrow templates: Finished"
